@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(230,72,102, 0.13);
+    height: 164rem !important;
+}
+
+::selection{
+    background:  rgba(241, 179, 190, 0.685);
+}
+
+h4{
+    font: 600 1.6rem Courgette;
+    color: rgb(230,72,102);
+    line-height: 5.2rem;
+}
+
+#menu-box{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+
+    box-shadow: 0.2rem 0.2rem 0.7rem rgb(0, 0, 0, 0.08);
+}
+
+#menu{
+    line-height: 4.6rem;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#banner-area{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    z-index: 2 !important;
+}
+
+#reason-why{
+    width: 100%;
+    height: calc(auto + 4rem);
+    background-color: white;
+    padding-top: 3.6rem;
+    display: flex;
+}
+
+#reason-text{
+    width: 58rem;
+    margin: 0 auto;
+}
+
+h2{
+    font: 700 3.6rem Open Sans;
+    color: #E64967;
+}
+
+#txt-body{
+    width: 57%;
+    font: 400 1.15rem Montserrat;
+    line-height: 1.7rem;
+    text-indent: 0.4rem;
+}
+
+strong{
+    color: #1dc4a5;
+}
+
+li{
+    list-style-image: url("Flwrs/li.svg");
+}
+
+#ajuda-ae{
+    margin-bottom: 6rem;
+}
+
+
+#flowers-box{
+    margin-top: 2.4rem;
+    z-index: 1 !important;
+}
+
+#align-flowers{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.2rem 2rem 1rem 2rem;
+}
+
+#flower-item-box{
+    max-width: 16rem;
+    height: calc(auto + 2rem);
+    background-color: white;
+    display: inline-block;
+    margin-left: 1.6rem;
+    padding: 1.4rem;
+    margin-bottom: 1.6rem;
+    text-align: justify;
+}
+
+#flower-item-box:hover{
+    transition: 0.3s ease-in-out;
+    background-color: rgba(241, 179, 190, 0.466);
+    box-shadow: 0rem 0rem 0.8rem rgb(241, 179, 190);
+}
+
+#flower-item-box img {
+    max-width: 12rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.6rem;
+}
+
+#flower-item-box span {
+    font: 700 1.2rem Open Sans;
+    color: rgb(230,72,102);
+}
+
+#flower-item-box p {
+    text-indent: 1rem;
+    margin-top: 0.2rem;
+    font: 400 1rem Montserrat;
+    line-height: 1.4rem;
+}
+
+#luck-flower{
+    width: 100%;
+    height: auto;
+}
+
+#cta-flower{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+#cta-flower h1{
+    font: 700 2.8rem Open Sans;
+    color: #e64967;
+}
+
+#cta-flower h6{
+    font: 600 1.2rem Montserrat;
+}
+
+#align-box{
+    margin: 0 auto;
+    width: 30rem;
+    height: 20rem;
+    text-align: center;
+    padding: 0rem;
+}
+
+#btn-main{
+    color: white;
+    font: 400 1rem Montserrat;
+    padding: 1.4rem 4rem;
+    border: none;
+    border-radius: 50rem;
+    text-align: center;
+    background-color: rgb(230,72,102);
+    margin: 2rem 0 2.6rem 0;
+}
+
+#btn-main:hover {
+    background-color: rgb(255, 118, 143);
+    transition: 0.4s;
+    box-shadow: 0.1rem 0.1rem 0.5rem  rgb(247, 51, 86, 0.4);
+}
+
+#btn-main:focus {
+    outline: none;
+}
+
+#white-box {
+    width: 25rem !important;
+    height: 10rem;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    border: 1.9px solid #f2f2f2;
+    padding: 3.4rem;
+
+    font: 600 2rem Roboto;
+    color: rgb(230,72,102);
+
+    box-shadow: 0.1rem 0.1rem 1rem rgb(247, 51, 86, 0.1);
+}
+
+#credit{
+    width: 15rem;
+    margin: auto;
+    margin-top: 2rem;
+}
