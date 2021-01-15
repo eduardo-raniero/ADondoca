@@ -1,3 +1,3 @@
 # ADondoca
-Simple HTML page for those Front-End beginners like me who wanna see some inspiration :) 
+Simple HTML page made without pre preparation with the objetive to made something about the 'Flowers' topic within 3 hours.
 
