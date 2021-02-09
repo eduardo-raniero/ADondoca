@@ -1,6 +1,16 @@
+html{
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 body{
     background-color: rgb(230,72,102, 0.13);
-    height: 164rem !important;
+    height: auto;
 }
 
 ::selection{
@@ -45,7 +55,7 @@ h4{
 }
 
 #reason-text{
-    width: 58rem;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -131,7 +141,7 @@ li{
     height: auto;
     margin: 0 auto;
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 3.6rem;
 }
 
 #cta-flower h1{
@@ -191,4 +201,11 @@ li{
     width: 15rem;
     margin: auto;
     margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and(max-width: 800px){
+    #reason-text{
+        width: 80%;
+    }
 }
